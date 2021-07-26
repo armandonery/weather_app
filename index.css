@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+    line-height: 1.5;
+  }
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.container {
+    margin-left: 40px;
+}
+
+#location {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-left: 95px;
+    margin-top: 15px;
+}
+
+#info-location {
+    display: flex;
+}
+
+.fas {
+    margin-top: -17px;
+    color:cornflowerblue;
+}
+
+#country {
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0px 5px;
+    color: #4F4F4F;
+}
+
+#temperature {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 2.5rem;    
+    margin-left: 15px;
+}
+
+#celcuis {
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+#data1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px;
+}
+
+#data {
+    display: flex;
+}
+
+#date {
+    color: blueviolet;
+    font-weight: 300;
+}
+
+/* Spinner loader */
+.loader,
+.loader:after {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+}
+.loader {
+  margin: 60px auto;
+  font-size: 10px;
+  position: relative;
+  text-indent: -9999em;
+  border-top: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-right: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1.1em solid rgba(255, 255, 255, 0.2);
+  border-left: 1.1em solid red;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load8 1.1s infinite linear;
+  animation: load8 1.1s infinite linear;
+}
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

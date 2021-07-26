@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
+    <!-- font awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title>Clima JS</title>
+</head>
+<body onload="onLoad()">
+    
+    <section class="container">
+
+        <div id="info-location">
+            <i class="fas fa-cloud fa-4x"></i>
+            <div id="temperature"></div> 
+            <p id="celcius">°C</p> 
+            <div id="location"></div>
+            <div id="country"></div>
+        </div>
+
+        <hr>
+
+        <section class="data">
+
+            <div id="data1">
+                <div id="description"></div>
+                <div id="date"></div>
+            </div>
+    
+            <div id="data">
+                Humidity: &nbsp;
+                <div id="humidity"></div>
+                <p>%</p>
+            </div>
+    
+            <div id="data">
+                Pressure: &nbsp;
+                <div id="pressure"></div>
+            </div>
+
+        </section>
+        
+    </section>
+    
+    <script src="index.js"></script>
+
+</body>
+</html>
